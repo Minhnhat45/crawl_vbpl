@@ -2,8 +2,9 @@ from urllib.parse import urljoin, urlparse
 from collections import deque
 import requests
 from bs4 import BeautifulSoup
+import os
 import json
-
+from tqdm import tqdm
 SITEMAP_URL = "https://vbpl.vn/Pages/sitemap.aspx"
 BASE_DOMAIN = "vbpl.vn"
 
@@ -99,6 +100,7 @@ def crawl_ministry(ministry_name, home_url, max_pages=500):
     session.headers["User-Agent"] = "Mozilla/5.0 (compatible; vbpl-crawler/1.0)"
 
     while q and len(visited) <= max_pages:
+        print(len(visited))
         url = q.popleft()
         try:
             r = session.get(url, timeout=15)
@@ -137,27 +139,55 @@ def crawl_ministry(ministry_name, home_url, max_pages=500):
     return docs
 
 
+def load_existing_ministries(path):
+    """
+    Đọc file JSONL đầu ra để biết Bộ nào đã được crawl trước đó.
+    """
+    if not os.path.exists(path):
+        return set()
+
+    existed = set()
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                doc = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            ministry = doc.get("ministry")
+            if ministry:
+                existed.add(ministry)
+    return existed
+
+
 def main():
     ministries = get_ministry_home_urls()
     print("Tìm thấy", len(ministries), "mục Bộ, ban ngành:")
     for name, url in ministries:
         print(" -", name, "=>", url)
 
-    all_docs = []
-    for name, url in ministries:
-        # Tùy server, bạn có thể tăng/giảm max_pages
-        docs = crawl_ministry(name, url, max_pages=800)
-        all_docs.extend(docs)
-
-    # Ghi ra JSONL
     out_file = "vbpl_ministry_docs.jsonl"
-    with open(out_file, "w", encoding="utf-8") as f:
-        for doc in all_docs:
-            f.write(json.dumps(doc, ensure_ascii=False) + "\n")
+    existed_ministries = load_existing_ministries(out_file)
+    if existed_ministries:
+        print("Bỏ qua các Bộ đã có sẵn trong file:", ", ".join(sorted(existed_ministries)))
 
-    print(f"\n✅ Đã ghi {len(all_docs)} văn bản vào {out_file}")
+    total_docs = 0
+    with open(out_file, "a", encoding="utf-8") as f:
+        for name, url in tqdm(ministries):
+            if name in existed_ministries:
+                print(f"⏭️  Bỏ qua {name} (đã crawl trước đó)")
+                continue
+            # Tùy server, bạn có thể tăng/giảm max_pages
+            docs = crawl_ministry(name, url, max_pages=800)
+            for doc in docs:
+                f.write(json.dumps(doc, ensure_ascii=False) + "\n")
+                f.flush()  # Ghi ngay để không mất dữ liệu nếu tiến trình dừng đột ngột
+                total_docs += 1
+
+    print(f"\n✅ Đã ghi thêm {total_docs} văn bản vào {out_file}")
 
 
 if __name__ == "__main__":
     main()
-
