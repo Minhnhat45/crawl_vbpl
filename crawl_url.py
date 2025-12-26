@@ -96,18 +96,27 @@ def crawl_url(department, document_type):
     return all_url_in_document_type
 
 document_type = {
+    "Hien_Phap": 15,
     "Bo_luat": 16,
     "Luat": 17,
     "Phap_lenh": 19,
+    "Lenh": 2,
     "Nghi_quyet": 18,
+    "Nghi_quyet_lien_tinh": 3,
     "Nghi_dinh": 20,
     "Quyet_dinh": 21,
     "Thong_tu": 22,
     "Thong_tu_lien_tich": 23
 }
-url_department = {}
-for k, v in tqdm(document_type.items()):
-    url_department.setdefault(k, crawl_url(department="bokhoahoccongnghe", document_type=v))
 
-with open("url_bokhoahoccongnghe.json", "w") as f:
-    json.dump(url_department, f, indent=4, ensure_ascii=False)
+all_departments = ['bocongan', 'bocongthuong', 'bogiaoducdaotao', 'bogiaothong', 'bokehoachvadautu', 'bokhoahoccongnghe', 'bolaodong', 'bonoivu', 'bonongnghiep', 'bongoaigiao', 'boquocphong', 'botaichinh', 'botainguyen', 'botuphap', 'bothongtin', 'bovanhoathethao', 'boxaydung', 'boyte', 'kiemtoannhanuoc', 'nganhangnhanuoc', 'toaannhandantoicao', 'thanhtrachinhphu', 'uybandantoc', 'vanphongchinhphu', 'vienkiemsatnhandantoicao']
+
+for department in all_departments:
+    print("Crawling department:", department)
+    if department in ['bocongan', 'bokhoahoccongnghe']:
+        continue
+    url_department = {}
+    for k, v in tqdm(document_type.items()):
+        url_department.setdefault(k, crawl_url(department=department, document_type=v))
+    with open(f"all_url/url_{department}.json", "w") as f:
+        json.dump(url_department, f, indent=4, ensure_ascii=False)
