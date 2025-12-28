@@ -1,32 +1,29 @@
-from urllib.parse import urljoin, urlparse
-import requests
-from bs4 import BeautifulSoup
 import glob
-SITEMAP_URL = "https://vbpl.vn/Pages/sitemap.aspx"
-BASE_DOMAIN = "vbpl.vn"
-def get_ministry_home_urls():
-    """
-    Lấy danh sách 25 mục 'Văn bản pháp luật Bộ, ban ngành' từ sitemap:
-    trả về list[(tên_bộ, url_home)]
-    """
-    resp = requests.get(SITEMAP_URL, timeout=15)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
+import json
 
-    # Tìm đoạn text 'Văn bản pháp luật Bộ, ban ngành'
-    label = soup.find(string=lambda t: t and "Văn bản pháp luật Bộ, ban ngành" in t)
-    if not label:
-        raise RuntimeError("Không tìm thấy mục 'Văn bản pháp luật Bộ, ban ngành' trong sitemap")
 
-    li = label.find_parent("li")
-    if not li:
-        raise RuntimeError("Không tìm thấy thẻ <li> cha chứa mục 'Văn bản pháp luật Bộ, ban ngành'")
+all_doc = 0
+miss_toan_van = 0
+for url_file in glob.glob("./all_url/url_*.json"):
+    with open(url_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-    ministry_links = li.find_all("a", href=True)
-    results = []
-    for a in ministry_links:
-        name = " ".join(a.get_text(strip=True).split())
-        url = urljoin(SITEMAP_URL, a["href"])
-        results.append((name, url))
+    for document_type, pages in data.items():
+        # pages is now a list of {"Page_X": [{"1": {...}}, {"2": {...}}, ...]}
+        for page_entry in pages:
+            for page_name, documents in page_entry.items():
+                for doc in documents:
+                    for _, info in doc.items():
+                        all_doc += 1
+                        document_url =  info.get('document_url')
+                        if "toanvan" not in document_url:
+                            miss_toan_van += 1
+                        print(
+                            # f"File: {url_file}, "
+                            # f"Document type: {document_type}, "
+                            # f"Page: {page_name}, "
+                            f"Document URL: {document_url}"
+                        )
 
-    return results
+print(all_doc)
+print(miss_toan_van)
