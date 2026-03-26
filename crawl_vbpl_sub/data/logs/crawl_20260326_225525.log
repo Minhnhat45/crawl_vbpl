@@ -1,0 +1,166 @@
+2026-03-26 22:55:25,171 [INFO] root: Starting VBPL crawler at 2026-03-26T15:55:25.171567+00:00
+2026-03-26 22:55:25,171 [INFO] root: Args: phase=all doc_type=all no_attachments=True
+2026-03-26 22:55:25,255 [INFO] root: ============================================================
+2026-03-26 22:55:25,255 [INFO] root: PHASE 1: Discovery [VBPQ]
+2026-03-26 22:55:25,256 [INFO] root: ============================================================
+2026-03-26 22:55:25,256 [INFO] crawler.discovery: Starting discovery for Văn bản pháp quy...
+2026-03-26 22:55:25,708 [INFO] crawler.discovery: [vbpq] Total pages: 3072
+2026-03-26 22:55:25,712 [INFO] crawler.discovery: [vbpq] Resuming from page 2 / 3072
+2026-03-26 22:55:30,006 [INFO] crawler.discovery: [vbpq] Page 100: found 50 documents
+2026-03-26 22:55:30,189 [INFO] crawler.discovery: [vbpq] Progress: pages 2-101 / 3072 done | Total discovered so far: 5050
+2026-03-26 22:55:36,004 [INFO] crawler.discovery: [vbpq] Page 200: found 50 documents
+2026-03-26 22:55:36,025 [INFO] crawler.discovery: [vbpq] Progress: pages 102-201 / 3072 done | Total discovered so far: 10050
+2026-03-26 22:55:41,328 [INFO] crawler.discovery: [vbpq] Page 300: found 50 documents
+2026-03-26 22:55:42,124 [INFO] crawler.discovery: [vbpq] Progress: pages 202-301 / 3072 done | Total discovered so far: 15050
+2026-03-26 22:55:47,593 [INFO] crawler.discovery: [vbpq] Page 400: found 50 documents
+2026-03-26 22:55:47,735 [INFO] crawler.discovery: [vbpq] Progress: pages 302-401 / 3072 done | Total discovered so far: 20050
+2026-03-26 22:55:54,019 [INFO] crawler.discovery: [vbpq] Page 500: found 50 documents
+2026-03-26 22:55:54,020 [INFO] crawler.discovery: [vbpq] Progress: pages 402-501 / 3072 done | Total discovered so far: 25050
+2026-03-26 22:55:59,514 [INFO] crawler.discovery: [vbpq] Page 600: found 50 documents
+2026-03-26 22:55:59,838 [INFO] crawler.discovery: [vbpq] Progress: pages 502-601 / 3072 done | Total discovered so far: 30050
+2026-03-26 22:56:05,600 [INFO] crawler.discovery: [vbpq] Page 700: found 50 documents
+2026-03-26 22:56:05,720 [INFO] crawler.discovery: [vbpq] Progress: pages 602-701 / 3072 done | Total discovered so far: 35050
+2026-03-26 22:56:11,571 [INFO] crawler.discovery: [vbpq] Page 800: found 50 documents
+2026-03-26 22:56:11,572 [INFO] crawler.discovery: [vbpq] Progress: pages 702-801 / 3072 done | Total discovered so far: 40050
+2026-03-26 22:56:18,650 [INFO] crawler.discovery: [vbpq] Page 900: found 50 documents
+2026-03-26 22:56:18,652 [INFO] crawler.discovery: [vbpq] Progress: pages 802-901 / 3072 done | Total discovered so far: 45050
+2026-03-26 22:56:25,962 [INFO] crawler.discovery: [vbpq] Page 1000: found 50 documents
+2026-03-26 22:56:25,967 [INFO] crawler.discovery: [vbpq] Progress: pages 902-1001 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:56:31,828 [INFO] crawler.discovery: [vbpq] Page 1100: found 50 documents
+2026-03-26 22:56:31,867 [INFO] crawler.discovery: [vbpq] Progress: pages 1002-1101 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:56:37,865 [INFO] crawler.discovery: [vbpq] Page 1200: found 50 documents
+2026-03-26 22:56:38,100 [INFO] crawler.discovery: [vbpq] Progress: pages 1102-1201 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:56:43,878 [INFO] crawler.discovery: [vbpq] Page 1300: found 50 documents
+2026-03-26 22:56:43,880 [INFO] crawler.discovery: [vbpq] Progress: pages 1202-1301 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:56:49,692 [INFO] crawler.discovery: [vbpq] Page 1400: found 50 documents
+2026-03-26 22:56:49,694 [INFO] crawler.discovery: [vbpq] Progress: pages 1302-1401 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:56:55,445 [INFO] crawler.discovery: [vbpq] Page 1500: found 50 documents
+2026-03-26 22:56:55,572 [INFO] crawler.discovery: [vbpq] Progress: pages 1402-1501 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:57:01,674 [INFO] crawler.discovery: [vbpq] Page 1600: found 50 documents
+2026-03-26 22:57:01,872 [INFO] crawler.discovery: [vbpq] Progress: pages 1502-1601 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:57:07,643 [INFO] crawler.discovery: [vbpq] Page 1700: found 50 documents
+2026-03-26 22:57:07,719 [INFO] crawler.discovery: [vbpq] Progress: pages 1602-1701 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:57:13,727 [INFO] crawler.discovery: [vbpq] Page 1800: found 50 documents
+2026-03-26 22:57:13,749 [INFO] crawler.discovery: [vbpq] Progress: pages 1702-1801 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:57:19,497 [INFO] crawler.discovery: [vbpq] Page 1900: found 50 documents
+2026-03-26 22:57:19,585 [INFO] crawler.discovery: [vbpq] Progress: pages 1802-1901 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:57:25,896 [INFO] crawler.discovery: [vbpq] Page 2000: found 50 documents
+2026-03-26 22:57:26,337 [INFO] crawler.discovery: [vbpq] Progress: pages 1902-2001 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:57:32,386 [INFO] crawler.discovery: [vbpq] Page 2100: found 50 documents
+2026-03-26 22:57:32,602 [INFO] crawler.discovery: [vbpq] Progress: pages 2002-2101 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:57:39,003 [INFO] crawler.discovery: [vbpq] Page 2200: found 50 documents
+2026-03-26 22:57:39,079 [INFO] crawler.discovery: [vbpq] Progress: pages 2102-2201 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:57:45,364 [INFO] crawler.discovery: [vbpq] Page 2300: found 50 documents
+2026-03-26 22:57:45,367 [INFO] crawler.discovery: [vbpq] Progress: pages 2202-2301 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:57:52,015 [INFO] crawler.discovery: [vbpq] Page 2400: found 50 documents
+2026-03-26 22:57:52,017 [INFO] crawler.discovery: [vbpq] Progress: pages 2302-2401 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:57:58,068 [INFO] crawler.discovery: [vbpq] Page 2500: found 50 documents
+2026-03-26 22:57:58,349 [INFO] crawler.discovery: [vbpq] Progress: pages 2402-2501 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:58:04,814 [INFO] crawler.discovery: [vbpq] Page 2600: found 50 documents
+2026-03-26 22:58:04,864 [INFO] crawler.discovery: [vbpq] Progress: pages 2502-2601 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:58:11,463 [INFO] crawler.discovery: [vbpq] Page 2700: found 50 documents
+2026-03-26 22:58:11,715 [INFO] crawler.discovery: [vbpq] Progress: pages 2602-2701 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:58:17,743 [INFO] crawler.discovery: [vbpq] Page 2800: found 50 documents
+2026-03-26 22:58:17,848 [INFO] crawler.discovery: [vbpq] Progress: pages 2702-2801 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:58:24,231 [INFO] crawler.discovery: [vbpq] Page 2900: found 50 documents
+2026-03-26 22:58:24,332 [INFO] crawler.discovery: [vbpq] Progress: pages 2802-2901 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:58:30,453 [INFO] crawler.discovery: [vbpq] Page 3000: found 50 documents
+2026-03-26 22:58:30,472 [INFO] crawler.discovery: [vbpq] Progress: pages 2902-3001 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:58:35,005 [INFO] crawler.discovery: [vbpq] Progress: pages 3002-3072 / 3072 done | Total discovered so far: 50000
+2026-03-26 22:58:35,007 [INFO] crawler.discovery: [vbpq] Discovery complete! Total: 50000 documents
+2026-03-26 22:58:35,007 [INFO] root: Discovered 50000 documents for VBPQ
+2026-03-26 22:58:35,007 [INFO] root: ============================================================
+2026-03-26 22:58:35,007 [INFO] root: PHASE 2: Detail Crawl [VBPQ]
+2026-03-26 22:58:35,007 [INFO] root: ============================================================
+2026-03-26 22:58:35,030 [INFO] crawler.detail: [vbpq] Starting detail crawl for 50000 documents...
+2026-03-26 22:59:13,315 [WARNING] crawler.detail: Detail ItemID=174917 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:15,316 [WARNING] crawler.detail: Detail ItemID=7750 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:15,316 [WARNING] crawler.detail: Detail ItemID=7752 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:15,317 [WARNING] crawler.detail: Detail ItemID=7342 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:15,317 [WARNING] crawler.detail: Detail ItemID=8222 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:15,317 [WARNING] crawler.detail: Detail ItemID=7755 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:15,317 [WARNING] crawler.detail: Too many consecutive errors (5), pausing 60s...
+2026-03-26 22:59:16,317 [WARNING] crawler.detail: Detail ItemID=8532 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:16,317 [WARNING] crawler.detail: Too many consecutive errors (6), pausing 60s...
+2026-03-26 22:59:17,337 [WARNING] crawler.detail: Detail ItemID=8611 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:17,338 [WARNING] crawler.detail: Detail ItemID=8535 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:28,317 [WARNING] crawler.detail: Detail ItemID=10425 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:30,317 [WARNING] crawler.detail: Detail ItemID=10422 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:31,322 [WARNING] crawler.detail: Detail ItemID=10426 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:33,315 [WARNING] crawler.detail: Detail ItemID=10434 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:35,316 [WARNING] crawler.detail: Detail ItemID=10433 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:36,321 [WARNING] crawler.detail: Detail ItemID=10802 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:38,316 [WARNING] crawler.detail: Detail ItemID=10803 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:44,316 [WARNING] crawler.detail: Detail ItemID=10805 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:48,317 [WARNING] crawler.detail: Detail ItemID=10820 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:49,317 [WARNING] crawler.detail: Detail ItemID=10822 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:50,316 [WARNING] crawler.detail: Detail ItemID=8611 error: TimeoutError  (attempt 2)
+2026-03-26 22:59:55,316 [WARNING] crawler.detail: Detail ItemID=25693 error: TimeoutError  (attempt 1)
+2026-03-26 22:59:58,316 [WARNING] crawler.detail: Detail ItemID=25164 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:01,316 [WARNING] crawler.detail: Detail ItemID=10425 error: TimeoutError  (attempt 2)
+2026-03-26 23:00:02,316 [WARNING] crawler.detail: Detail ItemID=23777 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:03,317 [WARNING] crawler.detail: Detail ItemID=11706 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:06,316 [WARNING] crawler.detail: Detail ItemID=11750 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:07,316 [WARNING] crawler.detail: Detail ItemID=11752 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:08,317 [WARNING] crawler.detail: Detail ItemID=11745 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:16,317 [WARNING] crawler.detail: Detail ItemID=11760 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:17,316 [WARNING] crawler.detail: Detail ItemID=10805 error: TimeoutError  (attempt 2)
+2026-03-26 23:00:17,316 [WARNING] crawler.detail: Detail ItemID=11757 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:18,317 [WARNING] crawler.detail: Detail ItemID=12326 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:21,317 [WARNING] crawler.detail: Detail ItemID=10820 error: TimeoutError  (attempt 2)
+2026-03-26 23:00:26,317 [WARNING] crawler.detail: Detail ItemID=12333 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:31,317 [WARNING] crawler.detail: Detail ItemID=12808 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:32,317 [WARNING] crawler.detail: Detail ItemID=12810 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:35,317 [WARNING] crawler.detail: Detail ItemID=23777 error: TimeoutError  (attempt 2)
+2026-03-26 23:00:36,316 [WARNING] crawler.detail: Detail ItemID=11706 error: TimeoutError  (attempt 2)
+2026-03-26 23:00:39,317 [WARNING] crawler.detail: Detail ItemID=12811 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:40,317 [WARNING] crawler.detail: Detail ItemID=12807 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:46,317 [WARNING] crawler.detail: Detail ItemID=24161 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:49,317 [WARNING] crawler.detail: Detail ItemID=8532 error: TimeoutError  (attempt 2)
+2026-03-26 23:00:49,317 [WARNING] crawler.detail: Detail ItemID=11760 error: TimeoutError  (attempt 2)
+2026-03-26 23:00:50,317 [WARNING] crawler.detail: Detail ItemID=12896 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:51,317 [WARNING] crawler.detail: Detail ItemID=26995 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:51,317 [WARNING] crawler.detail: Too many consecutive errors (5), pausing 60s...
+2026-03-26 23:00:56,316 [WARNING] crawler.detail: Detail ItemID=14456 error: TimeoutError  (attempt 1)
+2026-03-26 23:00:59,317 [WARNING] crawler.detail: Detail ItemID=12333 error: TimeoutError  (attempt 2)
+2026-03-26 23:00:59,318 [WARNING] crawler.detail: Detail ItemID=14831 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:00,317 [WARNING] crawler.detail: Detail ItemID=14276 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:02,316 [WARNING] crawler.detail: Detail ItemID=14832 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:04,316 [WARNING] crawler.detail: Detail ItemID=14916 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:07,317 [WARNING] crawler.detail: Detail ItemID=14838 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:11,316 [WARNING] crawler.detail: Detail ItemID=15062 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:12,317 [WARNING] crawler.detail: Detail ItemID=12811 error: TimeoutError  (attempt 2)
+2026-03-26 23:01:14,316 [WARNING] crawler.detail: Detail ItemID=15068 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:15,317 [WARNING] crawler.detail: Detail ItemID=15076 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:16,317 [WARNING] crawler.detail: Detail ItemID=15060 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:16,317 [WARNING] crawler.detail: Too many consecutive errors (5), pausing 60s...
+2026-03-26 23:01:19,316 [WARNING] crawler.detail: Detail ItemID=24161 error: TimeoutError  (attempt 2)
+2026-03-26 23:01:23,316 [WARNING] crawler.detail: Detail ItemID=12896 error: TimeoutError  (attempt 2)
+2026-03-26 23:01:25,316 [WARNING] crawler.detail: Detail ItemID=16729 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:31,317 [WARNING] crawler.detail: Detail ItemID=16726 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:32,316 [WARNING] crawler.detail: Detail ItemID=17067 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:34,316 [WARNING] crawler.detail: Detail ItemID=12333 error: TimeoutError  (attempt 3)
+2026-03-26 23:01:35,317 [WARNING] crawler.detail: Detail ItemID=14832 error: TimeoutError  (attempt 2)
+2026-03-26 23:01:40,317 [WARNING] crawler.detail: Detail ItemID=14838 error: TimeoutError  (attempt 2)
+2026-03-26 23:01:40,317 [WARNING] crawler.detail: Detail ItemID=113665 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:44,317 [WARNING] crawler.detail: Detail ItemID=15062 error: TimeoutError  (attempt 2)
+2026-03-26 23:01:47,317 [WARNING] crawler.detail: Detail ItemID=18124 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:49,316 [WARNING] crawler.detail: Detail ItemID=18122 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:52,317 [WARNING] crawler.detail: Detail ItemID=18126 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:54,317 [WARNING] crawler.detail: Detail ItemID=18125 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:54,318 [WARNING] crawler.detail: Detail ItemID=18127 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:55,317 [WARNING] crawler.detail: Detail ItemID=26117 error: TimeoutError  (attempt 1)
+2026-03-26 23:01:57,317 [WARNING] crawler.detail: Detail ItemID=18123 error: TimeoutError  (attempt 1)
+2026-03-26 23:02:10,317 [WARNING] crawler.detail: Detail ItemID=17855 error: TimeoutError  (attempt 1)
+2026-03-26 23:02:13,317 [WARNING] crawler.detail: Detail ItemID=19470 error: TimeoutError  (attempt 1)
+2026-03-26 23:02:13,318 [WARNING] crawler.detail: Detail ItemID=113665 error: TimeoutError  (attempt 2)
+2026-03-26 23:02:14,317 [WARNING] crawler.detail: Detail ItemID=19471 error: TimeoutError  (attempt 1)
+2026-03-26 23:02:14,317 [WARNING] crawler.detail: Too many consecutive errors (5), pausing 60s...
+2026-03-26 23:02:15,317 [WARNING] crawler.detail: Detail ItemID=19476 error: TimeoutError  (attempt 1)
+2026-03-26 23:02:15,317 [WARNING] crawler.detail: Too many consecutive errors (6), pausing 60s...
+2026-03-26 23:02:15,318 [WARNING] crawler.detail: Detail ItemID=14838 error: TimeoutError  (attempt 3)
+2026-03-26 23:02:15,318 [WARNING] crawler.detail: Too many consecutive errors (7), pausing 60s...
+2026-03-26 23:02:16,317 [WARNING] crawler.detail: Detail ItemID=19474 error: TimeoutError  (attempt 1)
+2026-03-26 23:02:16,317 [WARNING] crawler.detail: Too many consecutive errors (8), pausing 60s...
+2026-03-26 23:02:17,317 [WARNING] crawler.detail: Detail ItemID=19473 error: TimeoutError  (attempt 1)
+2026-03-26 23:02:18,317 [WARNING] crawler.detail: Detail ItemID=19477 error: TimeoutError  (attempt 1)

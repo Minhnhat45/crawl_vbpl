@@ -1,0 +1,14 @@
+[project]
+name = "crawl-vbpl"
+version = "0.1.0"
+description = "Crawler for Vietnam National Legal Document Database (vbpl.vn)"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.9",
+    "aiofiles>=24.1",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+]
+
+[project.scripts]
+crawl-vbpl = "crawler.main:main"
