@@ -1,0 +1,78 @@
+2026-03-28 00:17:34,317 [INFO] vbpl_single: Starting single-file VBPL crawler at 2026-03-27T17:17:34.317853+00:00
+2026-03-28 00:17:34,318 [INFO] vbpl_single: Args: phase=all doc_type=all no_attachments=False db_path=/Users/minhnhat/PycharmProjects/master-phenikaa/vbplvn_project/crawl_vbpl/crawl_vbpl_sub/data/crawl_state.db
+2026-03-28 00:17:34,318 [INFO] vbpl_single: ============================================================
+2026-03-28 00:17:34,318 [INFO] vbpl_single: PHASE 1: Discovery [VBPQ]
+2026-03-28 00:17:34,318 [INFO] vbpl_single: ============================================================
+2026-03-28 00:17:34,318 [INFO] vbpl_single: Starting discovery for Văn bản pháp quy...
+2026-03-28 00:17:34,667 [INFO] vbpl_single: [vbpq] Total pages: 3072
+2026-03-28 00:17:34,671 [INFO] vbpl_single: [vbpq] Resuming from page 2 / 3072
+2026-03-28 00:17:48,817 [INFO] vbpl_single: [vbpq] Page 100: found 50 documents
+2026-03-28 00:17:49,030 [INFO] vbpl_single: [vbpq] Progress: pages 2-101 / 3072 done | Total discovered so far: 50001
+2026-03-28 00:18:02,809 [INFO] vbpl_single: [vbpq] Page 200: found 50 documents
+2026-03-28 00:18:02,812 [INFO] vbpl_single: [vbpq] Progress: pages 102-201 / 3072 done | Total discovered so far: 50001
+2026-03-28 00:18:16,293 [INFO] vbpl_single: [vbpq] Page 300: found 50 documents
+2026-03-28 00:18:16,331 [INFO] vbpl_single: [vbpq] Progress: pages 202-301 / 3072 done | Total discovered so far: 50001
+2026-03-28 00:18:32,433 [INFO] vbpl_single: [vbpq] Page 400: found 50 documents
+2026-03-28 00:18:32,468 [INFO] vbpl_single: [vbpq] Progress: pages 302-401 / 3072 done | Total discovered so far: 50001
+2026-03-28 00:18:47,874 [INFO] vbpl_single: [vbpq] Page 500: found 50 documents
+2026-03-28 00:18:47,902 [INFO] vbpl_single: [vbpq] Progress: pages 402-501 / 3072 done | Total discovered so far: 50004
+2026-03-28 00:19:03,222 [INFO] vbpl_single: [vbpq] Page 600: found 50 documents
+2026-03-28 00:19:03,323 [INFO] vbpl_single: [vbpq] Progress: pages 502-601 / 3072 done | Total discovered so far: 50004
+2026-03-28 00:19:19,092 [INFO] vbpl_single: [vbpq] Page 700: found 50 documents
+2026-03-28 00:19:19,273 [INFO] vbpl_single: [vbpq] Progress: pages 602-701 / 3072 done | Total discovered so far: 50004
+2026-03-28 00:19:37,107 [INFO] vbpl_single: [vbpq] Page 800: found 50 documents
+2026-03-28 00:19:37,183 [INFO] vbpl_single: [vbpq] Progress: pages 702-801 / 3072 done | Total discovered so far: 50004
+2026-03-28 00:19:53,223 [INFO] vbpl_single: [vbpq] Page 900: found 50 documents
+2026-03-28 00:19:53,226 [INFO] vbpl_single: [vbpq] Progress: pages 802-901 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:20:11,431 [INFO] vbpl_single: [vbpq] Page 1000: found 50 documents
+2026-03-28 00:20:11,527 [INFO] vbpl_single: [vbpq] Progress: pages 902-1001 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:20:29,604 [INFO] vbpl_single: [vbpq] Page 1100: found 50 documents
+2026-03-28 00:20:29,805 [INFO] vbpl_single: [vbpq] Progress: pages 1002-1101 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:20:47,028 [INFO] vbpl_single: [vbpq] Page 1200: found 50 documents
+2026-03-28 00:20:49,184 [INFO] vbpl_single: [vbpq] Progress: pages 1102-1201 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:21:08,305 [INFO] vbpl_single: [vbpq] Page 1300: found 50 documents
+2026-03-28 00:21:08,330 [INFO] vbpl_single: [vbpq] Progress: pages 1202-1301 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:21:25,251 [INFO] vbpl_single: [vbpq] Page 1400: found 50 documents
+2026-03-28 00:21:25,289 [INFO] vbpl_single: [vbpq] Progress: pages 1302-1401 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:21:42,342 [INFO] vbpl_single: [vbpq] Page 1500: found 50 documents
+2026-03-28 00:21:42,765 [INFO] vbpl_single: [vbpq] Progress: pages 1402-1501 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:22:02,110 [INFO] vbpl_single: [vbpq] Page 1600: found 50 documents
+2026-03-28 00:22:02,182 [INFO] vbpl_single: [vbpq] Progress: pages 1502-1601 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:22:18,580 [INFO] vbpl_single: [vbpq] Page 1700: found 50 documents
+2026-03-28 00:22:18,615 [INFO] vbpl_single: [vbpq] Progress: pages 1602-1701 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:22:38,486 [INFO] vbpl_single: [vbpq] Page 1800: found 50 documents
+2026-03-28 00:22:38,494 [INFO] vbpl_single: [vbpq] Progress: pages 1702-1801 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:22:55,248 [INFO] vbpl_single: [vbpq] Page 1900: found 50 documents
+2026-03-28 00:22:55,421 [INFO] vbpl_single: [vbpq] Progress: pages 1802-1901 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:23:12,255 [INFO] vbpl_single: [vbpq] Page 2000: found 50 documents
+2026-03-28 00:23:12,258 [INFO] vbpl_single: [vbpq] Progress: pages 1902-2001 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:23:29,517 [INFO] vbpl_single: [vbpq] Page 2100: found 50 documents
+2026-03-28 00:23:29,522 [INFO] vbpl_single: [vbpq] Progress: pages 2002-2101 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:23:47,304 [INFO] vbpl_single: [vbpq] Page 2200: found 50 documents
+2026-03-28 00:23:47,308 [INFO] vbpl_single: [vbpq] Progress: pages 2102-2201 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:24:03,937 [INFO] vbpl_single: [vbpq] Page 2300: found 50 documents
+2026-03-28 00:24:03,984 [INFO] vbpl_single: [vbpq] Progress: pages 2202-2301 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:24:20,709 [INFO] vbpl_single: [vbpq] Page 2400: found 50 documents
+2026-03-28 00:24:20,780 [INFO] vbpl_single: [vbpq] Progress: pages 2302-2401 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:24:38,645 [INFO] vbpl_single: [vbpq] Page 2500: found 50 documents
+2026-03-28 00:24:38,874 [INFO] vbpl_single: [vbpq] Progress: pages 2402-2501 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:24:56,687 [INFO] vbpl_single: [vbpq] Page 2600: found 50 documents
+2026-03-28 00:24:57,444 [INFO] vbpl_single: [vbpq] Progress: pages 2502-2601 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:25:14,345 [INFO] vbpl_single: [vbpq] Page 2700: found 50 documents
+2026-03-28 00:25:16,896 [INFO] vbpl_single: [vbpq] Progress: pages 2602-2701 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:25:33,557 [INFO] vbpl_single: [vbpq] Page 2800: found 50 documents
+2026-03-28 00:25:34,099 [INFO] vbpl_single: [vbpq] Progress: pages 2702-2801 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:25:57,779 [INFO] vbpl_single: [vbpq] Page 2900: found 50 documents
+2026-03-28 00:25:57,846 [INFO] vbpl_single: [vbpq] Progress: pages 2802-2901 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:26:13,514 [INFO] vbpl_single: [vbpq] Page 3000: found 50 documents
+2026-03-28 00:26:14,078 [INFO] vbpl_single: [vbpq] Progress: pages 2902-3001 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:26:26,533 [INFO] vbpl_single: [vbpq] Progress: pages 3002-3072 / 3072 done | Total discovered so far: 50014
+2026-03-28 00:26:26,536 [INFO] vbpl_single: [vbpq] Discovery complete! Total: 50014 documents
+2026-03-28 00:26:26,536 [INFO] vbpl_single: Discovered 50014 documents for VBPQ
+2026-03-28 00:26:26,536 [INFO] vbpl_single: ============================================================
+2026-03-28 00:26:26,536 [INFO] vbpl_single: PHASE 2: Detail Crawl [VBPQ]
+2026-03-28 00:26:26,536 [INFO] vbpl_single: ============================================================
+2026-03-28 00:26:26,599 [INFO] vbpl_single: [vbpq] Starting detail crawl for 50012 documents...
+2026-03-28 00:27:11,566 [WARNING] vbpl_single: Detail ItemID=18 error: TimeoutError  (attempt 1)
+2026-03-28 00:27:18,567 [WARNING] vbpl_single: Detail ItemID=23 error: TimeoutError  (attempt 1)
+2026-03-28 00:33:01,679 [INFO] vbpl_single: Interrupted by user. State saved — resume with same command.
