@@ -1,0 +1,5 @@
+2026-03-27 00:38:35,427 [INFO] vbpl_single: Starting single-file VBPL crawler at 2026-03-26T17:38:35.427471+00:00
+2026-03-27 00:38:35,427 [INFO] vbpl_single: Args: phase=export doc_type=all no_attachments=False db_path=/home/minhnhat/Projects/crawl_vbpl/crawl_vbpl_sub/data/crawl_state.db
+2026-03-27 00:38:35,444 [INFO] vbpl_single: Exported 0 VBPQ records to /home/minhnhat/Projects/crawl_vbpl/crawl_vbpl_sub/data/documents/van_ban_phap_quy.json
+2026-03-27 00:38:35,459 [INFO] vbpl_single: Exported 0 VBHN records to /home/minhnhat/Projects/crawl_vbpl/crawl_vbpl_sub/data/documents/van_ban_hop_nhat.json
+2026-03-27 00:38:35,806 [INFO] vbpl_single: Exported 50000 SQLite rows to /home/minhnhat/Projects/crawl_vbpl/crawl_vbpl_sub/data/documents/crawl_state_export.json

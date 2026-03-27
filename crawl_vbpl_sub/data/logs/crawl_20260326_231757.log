@@ -1,0 +1,83 @@
+2026-03-26 23:17:57,284 [INFO] root: Starting VBPL crawler at 2026-03-26T16:17:57.284428+00:00
+2026-03-26 23:17:57,284 [INFO] root: Args: phase=all doc_type=all no_attachments=False
+2026-03-26 23:17:57,365 [INFO] root: ============================================================
+2026-03-26 23:17:57,365 [INFO] root: PHASE 1: Discovery [VBPQ]
+2026-03-26 23:17:57,365 [INFO] root: ============================================================
+2026-03-26 23:17:57,365 [INFO] crawler.discovery: Starting discovery for Văn bản pháp quy...
+2026-03-26 23:17:57,783 [INFO] crawler.discovery: [vbpq] Total pages: 3072
+2026-03-26 23:17:57,788 [INFO] crawler.discovery: [vbpq] Resuming from page 2 / 3072
+2026-03-26 23:18:10,383 [INFO] crawler.discovery: [vbpq] Page 100: found 50 documents
+2026-03-26 23:18:10,441 [INFO] crawler.discovery: [vbpq] Progress: pages 2-101 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:18:24,035 [INFO] crawler.discovery: [vbpq] Page 200: found 50 documents
+2026-03-26 23:18:24,079 [INFO] crawler.discovery: [vbpq] Progress: pages 102-201 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:18:37,958 [INFO] crawler.discovery: [vbpq] Page 300: found 50 documents
+2026-03-26 23:18:37,999 [INFO] crawler.discovery: [vbpq] Progress: pages 202-301 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:18:52,201 [INFO] crawler.discovery: [vbpq] Page 400: found 50 documents
+2026-03-26 23:18:52,204 [INFO] crawler.discovery: [vbpq] Progress: pages 302-401 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:19:07,209 [INFO] crawler.discovery: [vbpq] Page 500: found 50 documents
+2026-03-26 23:19:07,520 [INFO] crawler.discovery: [vbpq] Progress: pages 402-501 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:19:22,916 [INFO] crawler.discovery: [vbpq] Page 600: found 50 documents
+2026-03-26 23:19:23,104 [INFO] crawler.discovery: [vbpq] Progress: pages 502-601 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:19:38,245 [INFO] crawler.discovery: [vbpq] Page 700: found 50 documents
+2026-03-26 23:19:38,425 [INFO] crawler.discovery: [vbpq] Progress: pages 602-701 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:19:54,416 [INFO] crawler.discovery: [vbpq] Page 800: found 50 documents
+2026-03-26 23:19:54,464 [INFO] crawler.discovery: [vbpq] Progress: pages 702-801 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:20:10,545 [INFO] crawler.discovery: [vbpq] Page 900: found 50 documents
+2026-03-26 23:20:11,079 [INFO] crawler.discovery: [vbpq] Progress: pages 802-901 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:20:26,590 [INFO] crawler.discovery: [vbpq] Page 1000: found 50 documents
+2026-03-26 23:20:27,086 [INFO] crawler.discovery: [vbpq] Progress: pages 902-1001 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:20:50,801 [INFO] crawler.discovery: [vbpq] Page 1100: found 50 documents
+2026-03-26 23:20:51,736 [INFO] crawler.discovery: [vbpq] Progress: pages 1002-1101 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:21:08,607 [INFO] crawler.discovery: [vbpq] Page 1200: found 50 documents
+2026-03-26 23:21:08,863 [INFO] crawler.discovery: [vbpq] Progress: pages 1102-1201 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:21:24,844 [INFO] crawler.discovery: [vbpq] Page 1300: found 50 documents
+2026-03-26 23:21:24,955 [INFO] crawler.discovery: [vbpq] Progress: pages 1202-1301 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:21:40,830 [INFO] crawler.discovery: [vbpq] Page 1400: found 50 documents
+2026-03-26 23:21:40,899 [INFO] crawler.discovery: [vbpq] Progress: pages 1302-1401 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:21:57,373 [INFO] crawler.discovery: [vbpq] Page 1500: found 50 documents
+2026-03-26 23:21:57,603 [INFO] crawler.discovery: [vbpq] Progress: pages 1402-1501 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:22:14,412 [INFO] crawler.discovery: [vbpq] Page 1600: found 50 documents
+2026-03-26 23:22:14,455 [INFO] crawler.discovery: [vbpq] Progress: pages 1502-1601 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:22:30,369 [INFO] crawler.discovery: [vbpq] Page 1700: found 50 documents
+2026-03-26 23:22:30,469 [INFO] crawler.discovery: [vbpq] Progress: pages 1602-1701 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:22:46,781 [INFO] crawler.discovery: [vbpq] Page 1800: found 50 documents
+2026-03-26 23:22:46,828 [INFO] crawler.discovery: [vbpq] Progress: pages 1702-1801 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:23:02,903 [INFO] crawler.discovery: [vbpq] Page 1900: found 50 documents
+2026-03-26 23:23:02,906 [INFO] crawler.discovery: [vbpq] Progress: pages 1802-1901 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:23:19,353 [INFO] crawler.discovery: [vbpq] Page 2000: found 50 documents
+2026-03-26 23:23:19,425 [INFO] crawler.discovery: [vbpq] Progress: pages 1902-2001 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:23:35,170 [INFO] crawler.discovery: [vbpq] Page 2100: found 50 documents
+2026-03-26 23:23:35,261 [INFO] crawler.discovery: [vbpq] Progress: pages 2002-2101 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:23:50,827 [INFO] crawler.discovery: [vbpq] Page 2200: found 50 documents
+2026-03-26 23:23:51,357 [INFO] crawler.discovery: [vbpq] Progress: pages 2102-2201 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:24:07,234 [INFO] crawler.discovery: [vbpq] Page 2300: found 50 documents
+2026-03-26 23:24:07,299 [INFO] crawler.discovery: [vbpq] Progress: pages 2202-2301 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:24:23,563 [INFO] crawler.discovery: [vbpq] Page 2400: found 50 documents
+2026-03-26 23:24:23,624 [INFO] crawler.discovery: [vbpq] Progress: pages 2302-2401 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:24:39,786 [INFO] crawler.discovery: [vbpq] Page 2500: found 50 documents
+2026-03-26 23:24:39,839 [INFO] crawler.discovery: [vbpq] Progress: pages 2402-2501 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:24:56,310 [INFO] crawler.discovery: [vbpq] Page 2600: found 50 documents
+2026-03-26 23:24:56,390 [INFO] crawler.discovery: [vbpq] Progress: pages 2502-2601 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:25:12,828 [INFO] crawler.discovery: [vbpq] Page 2700: found 50 documents
+2026-03-26 23:25:12,874 [INFO] crawler.discovery: [vbpq] Progress: pages 2602-2701 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:25:29,000 [INFO] crawler.discovery: [vbpq] Page 2800: found 50 documents
+2026-03-26 23:25:29,059 [INFO] crawler.discovery: [vbpq] Progress: pages 2702-2801 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:25:45,560 [INFO] crawler.discovery: [vbpq] Page 2900: found 50 documents
+2026-03-26 23:25:45,617 [INFO] crawler.discovery: [vbpq] Progress: pages 2802-2901 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:26:01,699 [INFO] crawler.discovery: [vbpq] Page 3000: found 50 documents
+2026-03-26 23:26:01,799 [INFO] crawler.discovery: [vbpq] Progress: pages 2902-3001 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:26:13,730 [INFO] crawler.discovery: [vbpq] Progress: pages 3002-3072 / 3072 done | Total discovered so far: 50000
+2026-03-26 23:26:13,732 [INFO] crawler.discovery: [vbpq] Discovery complete! Total: 50000 documents
+2026-03-26 23:26:13,732 [INFO] root: Discovered 50000 documents for VBPQ
+2026-03-26 23:26:13,733 [INFO] root: ============================================================
+2026-03-26 23:26:13,733 [INFO] root: PHASE 2: Detail Crawl [VBPQ]
+2026-03-26 23:26:13,733 [INFO] root: ============================================================
+2026-03-26 23:26:13,778 [INFO] crawler.detail: [vbpq] Starting detail crawl for 49998 documents...
+2026-03-26 23:27:06,418 [WARNING] crawler.detail: Detail ItemID=10427 error: TimeoutError  (attempt 1)
+2026-03-26 23:29:23,421 [WARNING] crawler.detail: Detail ItemID=175027 error: TimeoutError  (attempt 1)
+2026-03-26 23:30:12,418 [WARNING] crawler.detail: Detail ItemID=161986 error: TimeoutError  (attempt 1)
+2026-03-26 23:32:34,420 [WARNING] crawler.detail: Detail ItemID=23258 error: TimeoutError  (attempt 1)
+2026-03-26 23:32:57,418 [WARNING] crawler.detail: Detail ItemID=6118 error: TimeoutError  (attempt 1)
+2026-03-26 23:34:10,418 [WARNING] crawler.detail: Detail ItemID=95924 error: TimeoutError  (attempt 1)
+2026-03-26 23:34:15,421 [WARNING] crawler.detail: Detail ItemID=70812 error: TimeoutError  (attempt 1)
+2026-03-26 23:34:38,494 [INFO] root: Interrupted by user. State saved — resume with same command.

@@ -1,0 +1,22 @@
+2026-03-27 00:43:21,119 [INFO] vbpl_single: Starting single-file VBPL crawler at 2026-03-26T17:43:21.119576+00:00
+2026-03-27 00:43:21,119 [INFO] vbpl_single: Args: phase=all doc_type=all no_attachments=False db_path=/home/minhnhat/Projects/crawl_vbpl/crawl_vbpl_sub/data/crawl_state.db
+2026-03-27 00:43:21,120 [INFO] vbpl_single: ============================================================
+2026-03-27 00:43:21,120 [INFO] vbpl_single: PHASE 1: Discovery [VBPQ]
+2026-03-27 00:43:21,120 [INFO] vbpl_single: ============================================================
+2026-03-27 00:43:21,120 [INFO] vbpl_single: Starting discovery for Văn bản pháp quy...
+2026-03-27 00:43:51,448 [WARNING] vbpl_single: Search page 1 error:  (attempt 1)
+2026-03-27 00:44:24,421 [WARNING] vbpl_single: Search page 1 error:  (attempt 2)
+2026-03-27 00:44:59,418 [WARNING] vbpl_single: Search page 1 error:  (attempt 3)
+2026-03-27 00:44:59,418 [ERROR] vbpl_single: Cannot fetch first page for vbpq
+2026-03-27 00:44:59,419 [INFO] vbpl_single: Discovered 0 documents for VBPQ
+2026-03-27 00:44:59,419 [INFO] vbpl_single: ============================================================
+2026-03-27 00:44:59,419 [INFO] vbpl_single: PHASE 2: Detail Crawl [VBPQ]
+2026-03-27 00:44:59,419 [INFO] vbpl_single: ============================================================
+2026-03-27 00:44:59,489 [INFO] vbpl_single: [vbpq] Starting detail crawl for 49998 documents...
+2026-03-27 00:45:30,418 [WARNING] vbpl_single: Detail ItemID=2 error: TimeoutError  (attempt 1)
+2026-03-27 00:45:30,418 [WARNING] vbpl_single: Detail ItemID=5 error: TimeoutError  (attempt 1)
+2026-03-27 00:45:30,419 [WARNING] vbpl_single: Detail ItemID=1 error: TimeoutError  (attempt 1)
+2026-03-27 00:45:30,419 [WARNING] vbpl_single: Detail ItemID=4 error: TimeoutError  (attempt 1)
+2026-03-27 00:45:30,419 [WARNING] vbpl_single: Detail ItemID=3 error: TimeoutError  (attempt 1)
+2026-03-27 00:45:30,419 [WARNING] vbpl_single: Too many consecutive errors (5), pausing 60s...
+2026-03-27 00:45:52,007 [INFO] vbpl_single: Interrupted by user. State saved — resume with same command.
